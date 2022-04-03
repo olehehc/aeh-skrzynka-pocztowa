@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<messages>
+    <message messageHeader="Second message" messageText="I'm from xml file !" />
+    <message messageHeader="Third message" messageText="I'm from xml file too !" />
+</messages>

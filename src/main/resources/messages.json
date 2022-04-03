@@ -1,0 +1,10 @@
+[
+  {
+    "messageHeader": "Fourth message",
+    "messageText": "I'm from json file !"
+  },
+  {
+    "messageHeader": "Fifth message",
+    "messageText": "I'm from json file too !"
+  }
+]

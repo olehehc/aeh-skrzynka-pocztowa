@@ -1,8 +1,10 @@
 package factory;
 
+import factory.attachment.Attachment;
+
 public abstract class AttachmentFactory {
 
-    enum AttachmentType {
+    public enum AttachmentType {
         ARCHIVE, PHOTO, FILE
     }
 

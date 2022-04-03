@@ -1,8 +1,9 @@
 package singleton;
 
-import factory.Message;
+import singleton.entity.Message;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class Inbox {
 

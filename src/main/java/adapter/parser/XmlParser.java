@@ -1,6 +1,6 @@
 package adapter.parser;
 
-import adapter.model.Message;
+import adapter.entity.Message;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 

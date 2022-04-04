@@ -1,16 +1,16 @@
 package adapter;
 
-import adapter.model.Message;
+import adapter.entity.Message;
 import adapter.parser.JsonParser;
 import java.io.File;
 
 import java.util.List;
 
-public class MessageJsonAdapter implements MessagesStorage {
+public class JsonAdapter implements Portable {
 
     private final JsonParser jsonParser;
 
-    public MessageJsonAdapter(JsonParser jsonParser) {
+    public JsonAdapter(JsonParser jsonParser) {
         this.jsonParser = jsonParser;
     }
 

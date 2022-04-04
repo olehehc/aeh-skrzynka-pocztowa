@@ -1,16 +1,16 @@
 package adapter;
 
-import adapter.model.Message;
+import adapter.entity.Message;
 import adapter.parser.XmlParser;
 
 import java.io.File;
 import java.util.List;
 
-public class MessageXmlAdapter implements MessagesStorage {
+public class XmlAdapter implements Portable {
 
     private final XmlParser xmlParser;
 
-    public MessageXmlAdapter(XmlParser xmlParser) {
+    public XmlAdapter(XmlParser xmlParser) {
         this.xmlParser = xmlParser;
     }
 

@@ -1,7 +1,7 @@
 package facade;
 
-import adapter.MessageJsonAdapter;
-import adapter.MessageXmlAdapter;
+import adapter.JsonAdapter;
+import adapter.XmlAdapter;
 import adapter.parser.JsonParser;
 import adapter.parser.XmlParser;
 import factory.*;
@@ -45,8 +45,8 @@ public class InboxInterface {
         System.out.println(inbox.removeMessage(messageId));
 
         // use of adapter
-        var messageXmlAdapter = new MessageXmlAdapter(new XmlParser());
-        var messageJsonAdapter = new MessageJsonAdapter(new JsonParser());
+        var messageXmlAdapter = new XmlAdapter(new XmlParser());
+        var messageJsonAdapter = new JsonAdapter(new JsonParser());
 
         System.out.println(messageXmlAdapter.getMessages(new File(System.getProperty("user.dir")
                 + "/src/main/resources/messages.xml")));
